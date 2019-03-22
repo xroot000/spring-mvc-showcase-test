@@ -22,7 +22,7 @@ public class RootConfig {
 	}
 
 	// Provides automatic CSRF token inclusion when using Spring MVC Form tags or Thymeleaf.
-	// See http://localhost:8080/#forms a1nd form.jsp for examples
+	// See http://localhost:8080/#forms and form.jsp for examples
 
 	@Bean
 	public RequestDataValueProcessor requestDataValueProcessor() {
